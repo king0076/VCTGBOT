@@ -9,12 +9,12 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
     & ~ filters.edited
 )
 async def start_(client: Client, message: Message):
-    await message.reply_sticker("CAACAgUAAxkBAAIp9mBtwBBZGywWEmV-WC8gcMArjusuAAKMAgACTp1xV6m-mtC1YTfoHgQ")
+    await message.reply_sticker("CAACAgUAAxkBAAEJk31giDbxyx3MGVI7Ws77DcYAAVpTVo8AAlkAA8VDGj2DjvM8O4zu9x8E")
     await message.reply_text(
         f"""<b>Hi {message.from_user.first_name}!
 \nI can play music in your group's voice chat
-Maintained by @HEROGAMERS1 ❤
-\nTo add in your group contact us at @LaylaSupport.
+Maintained by @hayper007 ❤
+\nTo add in your group contact us at @hayper007.
 \nHit /help list of available commands.
  </b>""",
       
@@ -23,23 +23,23 @@ Maintained by @HEROGAMERS1 ❤
             [
                 [
                     InlineKeyboardButton(
-                        "🌍 Music World", url="https://t.me/GIRLS_AND_BOYS_CHATTING",
+                        "🌍 Music World", url="https://t.me/Zxmodeapk",
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "💬 Group", url="https://t.me/LaylaSupport"
+                        "💬 Group", url="https://t.me/Zxmodeapk"
                     ),
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/LaylaList"
+                        "🔊 Channel", url="https://t.me/Zxmodeapk"
                     ),
                     InlineKeyboardButton(
-                        "💾 Source code", url="https://github.com/QueenArzoo/VCPlayBot"
+                        "💾 Source code", url="https://github.com/kingboyss/VCTGBOT"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "➕ Add To Your Group ➕", url="https://t.me/VCPlayBot?startgroup=true"
+                        "➕ Add To Your Group ➕", url="https://t.me/TheMp3Playebot?startgroup=true"
                     ) 
                 ]
             ]
@@ -58,7 +58,7 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/LaylaList"
+                        "🔊 Channel", url="https://t.me/Zxmodeapk"
                     )
                 ],    
                 [    
@@ -104,7 +104,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/LaylaList"
+                        "🔊 Channel", url="https://t.me/Zxmodeapk"
                     )
                 ]
             ]
