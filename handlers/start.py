@@ -11,8 +11,6 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 async def start_(client: Client, message: Message):
     await message.reply_sticker("CAACAgUAAxkBAAEJk31giDbxyx3MGVI7Ws77DcYAAVpTVo8AAlkAA8VDGj2DjvM8O4zu9x8E")
     await message.reply_sticker("CAACAgQAAxkBAAEJ3C9gnTkTPoOciaMVQwa6_k6F56vb6wAChxcAAtqjlSz9pNTIjJLj")
-    await message.reply_sticker("CAACAgUAAxkBAAEJ3DNgnTl8ZD4mV95BGFr4UIbW2nGPXgACwgEAAhsSOVWQaeEVO8RSkR8E")
-    await message.reply_sticker("CAACAgIAAxkBAAEJ3DlgnTop9s8G5FQOpNqp5JaeXM1LdAACIgMAAm2wQgO8x8PfoXC1eB8E")
     await message.reply_text(
         f"""<b>Hi {message.from_user.first_name}!
 \nI can play music in your group's voice chat
