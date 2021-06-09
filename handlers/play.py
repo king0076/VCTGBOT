@@ -202,7 +202,7 @@ async def ee(client, message):
     if stats:
         await message.reply(stats)              
     else:
-        await message.reply('No 𝙏𝙝𝙚𝙈𝙥3𝙥𝙡𝙖𝙮 instances running in this chat')
+        await message.reply('No Cobramusic 🎶𝔸𝕤𝕤𝕤𝕚𝕥𝕒𝕟𝕥 instances running in this chat')
 
 @Client.on_message(
     filters.command("player")
@@ -223,7 +223,7 @@ async def settings(client, message):
         else:
             await message.reply(stats, reply_markup=r_ply('play'))
     else:
-        await message.reply('No 𝙏𝙝𝙚𝙈𝙥3𝙥𝙡𝙖𝙮 instances running in this chat')
+        await message.reply('No Cobramusic 🎶𝔸𝕤𝕤𝕤𝕚𝕥𝕒𝕟𝕥 instances running in this chat')
 
 @Client.on_callback_query(filters.regex(pattern=r'^(playlist)$'))
 async def p_cb(b, cb):
@@ -374,7 +374,7 @@ async def m_cb(b, cb):
             if callsmusic.queues.is_empty(chat_id):
                 callsmusic.pytgcalls.leave_group_call(chat_id)
                 
-                await cb.message.edit('- No More Playlist..\n- Leaving 𝙏𝙝𝙚𝙈𝙥3𝙥𝙡𝙖𝙮!')
+                await cb.message.edit('- No More Playlist..\n- Leaving Cobramusic 🎶𝔸𝕤𝕤𝕤𝕚𝕥𝕒𝕟𝕥!')
             else:
                 callsmusic.pytgcalls.change_stream(
                     chat_id,
@@ -406,7 +406,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name =  "@TheMp3play"
+        user.first_name =  "@Cobramusicyt"
     usar = user
     wew = usar.id
     try:
@@ -425,9 +425,9 @@ async def play(_, message: Message):
 
                           try:
                               await USER.join_chat(invitelink)
-                              await USER.send_message(message.chat.id,"I joined this group for playing music in 𝙏𝙝𝙚𝙈𝙥3𝙥𝙡𝙖𝙮")
+                              await USER.send_message(message.chat.id,"I joined this group for playing music in Cobramusic 🎶𝔸𝕤𝕤𝕤𝕚𝕥𝕒𝕟𝕥")
                               await lel.edit(
-                                  "<b>@TheMp3play userbot joined your chat</b>",
+                                  "<b>@Cobramusicyt userbot joined your chat</b>",
                               )
 
                           except UserAlreadyParticipant:
@@ -436,7 +436,7 @@ async def play(_, message: Message):
                               #print(e)
                               await lel.edit(
                                   f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your group due to heavy requests for userbot! Make sure user is not banned in group."
-                                  "\n\nOr manually add @TheMp3play to your Group and try again</b>",
+                                  "\n\nOr manually add @Cobramusicyt to your Group and try again</b>",
                               )
                               pass
     try:
@@ -444,7 +444,7 @@ async def play(_, message: Message):
         #lmoa = await client.get_chat_member(chid,wew)
     except:
         await lel.edit(
-            f"<i> @TheMp3play Userbot not in this chat, Ask admin to send /play command for first time or add assistant manually</i>"
+            f"<i> @Cobramusicyt Userbot not in this chat, Ask admin to send /play command for first time or add assistant manually</i>"
         )
         return     
     sender_id = message.from_user.id
@@ -533,7 +533,7 @@ async def play(_, message: Message):
         await message.reply_photo(
         photo="final.png",
         reply_markup=keyboard,
-        caption="𝙏𝙝𝙚𝙈𝙥3𝙥𝙡𝙖𝙮▶️ **Playing** here the song requested by {} 😜".format(
+        caption="Cobramusic 🎶𝔸𝕤𝕤𝕤𝕚𝕥𝕒𝕟𝕥▶️ **Playing** here the song requested by {} 😜".format(
         message.from_user.mention()
         ),
     )
@@ -554,7 +554,7 @@ async def deezer(client: Client, message_: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name =  "TheMp3Playebot"
+        user.first_name =  "@Cobramusicytbot"
     usar = user
     wew = usar.id
     try:
@@ -573,9 +573,9 @@ async def deezer(client: Client, message_: Message):
 
                           try:
                               await USER.join_chat(invitelink)
-                              await USER.send_message(message_.chat.id,"I joined this group for playing music in 𝙏𝙝𝙚𝙈𝙥3𝙥𝙡𝙖𝙮")
+                              await USER.send_message(message_.chat.id,"I joined this group for playing music in Cobramusic 🎶𝔸𝕤𝕤𝕤𝕚𝕥𝕒𝕟𝕥")
                               await lel.edit(
-                                  "<b@TheMp3play userbot joined your chat</b>",
+                                  "<b@Cobramusicyt userbot joined your chat</b>",
                               )
 
                           except UserAlreadyParticipant:
@@ -584,7 +584,7 @@ async def deezer(client: Client, message_: Message):
                               #print(e)
                               await lel.edit(
                                   f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your group due to heavy requests for userbot! Make sure user is not banned in group."
-                                  "\n\nOr manually add@TheMp3play to your Group and try again</b>",
+                                  "\n\nOr manually add@Cobramusicyt to your Group and try again</b>",
                               )
                               pass
     try:
@@ -592,7 +592,7 @@ async def deezer(client: Client, message_: Message):
         #lmoa = await client.get_chat_member(chid,wew)
     except:
         await lel.edit(
-            f"<i>Looks like @TheMp3play Userbot not in this chat, Ask admin to send /play command for first time or add assistant manually</i>"
+            f"<i>Looks like @Cobramusicyt Userbot not in this chat, Ask admin to send /play command for first time or add assistant manually</i>"
         )
         return                            
     requested_by = message_.from_user.first_name   
@@ -647,9 +647,9 @@ async def deezer(client: Client, message_: Message):
         loc = file_path
         appendable = [s_name, r_by, loc]
         qeue.append(appendable)
-        await res.edit_text(f"𝙏𝙝𝙚𝙈𝙥3𝙥𝙡𝙖𝙮=#️⃣ Queued at position {position}")
+        await res.edit_text(f"Cobramusic 🎶𝔸𝕤𝕤𝕤𝕚𝕥𝕒𝕟𝕥=#️⃣ Queued at position {position}")
     else:
-        await res.edit_text("𝙏𝙝𝙚𝙈𝙥3𝙥𝙡𝙖𝙮=▶️ Playing.....")
+        await res.edit_text("Cobramusic 🎶𝔸𝕤𝕤𝕤𝕚𝕥𝕒𝕟𝕥=▶️ Playing.....")
         chat_id = message_.chat.id
         que[chat_id] = []
         qeue = que.get(message_.chat.id)
@@ -684,7 +684,7 @@ async def jiosaavn(client: Client, message_: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name =  "TheMp3Playebot"
+        user.first_name =  "@Cobramusicytbot"
     usar = user
     wew = usar.id
     try:
@@ -703,9 +703,9 @@ async def jiosaavn(client: Client, message_: Message):
 
                           try:
                               await USER.join_chat(invitelink)
-                              await USER.send_message(message_.chat.id,"I joined this group for playing music in 𝙏𝙝𝙚𝙈𝙥3𝙥𝙡𝙖𝙮")
+                              await USER.send_message(message_.chat.id,"I joined this group for playing music in Cobramusic 🎶𝔸𝕤𝕤𝕤𝕚𝕥𝕒𝕟𝕥")
                               await lel.edit(
-                                  "<b>@TheMp3play helper userbot joined your chat</b>",
+                                  "<b>@Cobramusicyt helper userbot joined your chat</b>",
                               )
 
                           except UserAlreadyParticipant:
@@ -714,7 +714,7 @@ async def jiosaavn(client: Client, message_: Message):
                               #print(e)
                               await lel.edit(
                                   f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your group due to heavy requests for userbot! Make sure user is not banned in group."
-                                  "\n\nOr manually add @TheMp3play to your Group and try again</b>",
+                                  "\n\nOr manually add @Cobramusicyt to your Group and try again</b>",
                               )
                               pass
     try:
@@ -722,7 +722,7 @@ async def jiosaavn(client: Client, message_: Message):
         #lmoa = await client.get_chat_member(chid,wew)
     except:
         await lel.edit(
-            "<i> @TheMp3play helper Userbot not in this chat, Ask admin to send /play command for first time or add assistant manually</i>"
+            "<i> @Cobramusicyt helper Userbot not in this chat, Ask admin to send /play command for first time or add assistant manually</i>"
         )
         return     
     requested_by = message_.from_user.first_name
@@ -782,12 +782,12 @@ async def jiosaavn(client: Client, message_: Message):
             chat_id=message_.chat.id,
             reply_markup=keyboard,
             photo="final.png",
-            caption=f"𝙏𝙝𝙚𝙈𝙥3𝙥𝙡𝙖𝙮=#️⃣ Queued at position {position}",
+            caption=f"Cobramusic 🎶𝔸𝕤𝕤𝕤𝕚𝕥𝕒𝕟𝕥=#️⃣ Queued at position {position}",
         
         )           
            
     else:
-        await res.edit_text("𝙏𝙝𝙚𝙈𝙥3𝙥𝙡𝙖𝙮=▶️ Playing.....")
+        await res.edit_text("Cobramusic 🎶𝔸𝕤𝕤𝕤𝕚𝕥𝕒𝕟𝕥=▶️ Playing.....")
         chat_id = message_.chat.id
         que[chat_id] = []
         qeue = que.get(message_.chat.id)
