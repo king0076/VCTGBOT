@@ -23,15 +23,15 @@ Maintained by @hayper007 👍
             [
                 [
                     InlineKeyboardButton(
-                        "🌍 Music World", url="https://t.me/Zxmodeapk",
+                        "🌍 Music World", url="https://t.me/ONLY_MY_FRND",
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "💬 Group", url="https://t.me/Films_requested"
+                        "💬 Group", url="https://t.me/ONLY_MY_FRND"
                     ),
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/Zxmodeapk"
+                        "🔊 Channel", url="https://t.me/ONLY_MY_FRND"
                     ),
                     InlineKeyboardButton(
                         "💾 Source code", url="https://github.com/kingboyss/VCTGBOT"
@@ -39,7 +39,7 @@ Maintained by @hayper007 👍
                 ],
                 [
                     InlineKeyboardButton(
-                        "➕ Add To Your Group ➕", url="https://t.me/TheMp3Playebot?startgroup=true"
+                        "➕ Add To Your Group ➕", url="https://t.me/Cobramusicytbot?startgroup=true"
                     ) 
                 ]
             ]
@@ -58,7 +58,7 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/Zxmodeapk"
+                        "🔊 Channel", url="https://t.me/ONLY_MY_FRND"
                     )
                 ],    
                 [    
@@ -104,7 +104,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/Zxmodeapk"
+                        "🔊 Channel", url="https://t.me/ONLY_MY_FRND"
                     )
                 ]
             ]
