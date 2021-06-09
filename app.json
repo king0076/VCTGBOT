@@ -1,9 +1,9 @@
 {
-    "name": "𝙏𝙝𝙚𝙈𝙥3𝙥𝙡𝙖𝙮",
+    "name": "Cobramusic 🎶𝔸𝕤𝕤𝕤𝕚𝕥𝕒𝕟𝕥",
     "logo": "https://telegra.ph/file/1bfa341fae051359be9cb.jpg",
     "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
     "keywords": ["music", "voicechat", "telegram"],
-    "repository": "https://github.com/kingboyss/VCTGBOT",
+    "repository": "https://github.com/king0076/VCTGBOT",
     "stack": "container",
     "env": {
         "SESSION_NAME": {
@@ -17,7 +17,7 @@
         "BOT_NAME": {
             "description": "Your VCPlayBot Name.",
             "required": false,
-            "value": "𝙏𝙝𝙚𝙈𝙥3𝙥𝙡𝙖𝙮"
+            "value": "Cobramusic 🎶𝔸𝕤𝕤𝕤𝕚𝕥𝕒𝕟𝕥"
        },
         "API_ID": {
             "description": "From my.telegram.org/apps",
