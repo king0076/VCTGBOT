@@ -9,12 +9,12 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
     & ~ filters.edited
 )
 async def start_(client: Client, message: Message):
-    await message.reply_sticker("CAACAgUAAxkBAAEJk31giDbxyx3MGVI7Ws77DcYAAVpTVo8AAlkAA8VDGj2DjvM8O4zu9x8E")
+    await message.reply_sticker("CAACAgQAAxkBAAEKSwVgwMeTMQKNupRmP3-W6lVnAwqtdwAChxcAAtqjlSz9pNTIjJLj-h8E")
     await message.reply_text(
         f"""<b>Hi {message.from_user.first_name}!
 \nI can play music in your group's voice chat
-Maintained by @hayper007 👍
-\nTo add in your group contact us at @hayper007.
+Maintained by @death_owner 👍
+\nTo add in your group contact us at @death_owner.
 \nHit /help list of available commands.
  </b>""",
       
